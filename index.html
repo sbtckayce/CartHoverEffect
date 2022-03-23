@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cart Hover Effect</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-decription">
+            <div class="cart-item">
+                <div class="cart-content">
+                    <h2>01</h2>
+                    <h3>Cart One</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nesciunt quia inventore recusandae, atque officiis eum cumque cupiditate officia cum, eligendi eos dolorum eius facilis temporibus esse sapiente explicabo quod!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="cart-content">
+                    <h2>02</h2>
+                    <h3>Cart Two</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nesciunt quia inventore recusandae, atque officiis eum cumque cupiditate officia cum, eligendi eos dolorum eius facilis temporibus esse sapiente explicabo quod!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="cart-content">
+                    <h2>03</h2>
+                    <h3>Cart Three</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nesciunt quia inventore recusandae, atque officiis eum cumque cupiditate officia cum, eligendi eos dolorum eius facilis temporibus esse sapiente explicabo quod!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".cart-item"), {
+		max: 25,
+		speed: 400,
+        glare:true,
+        "max-glare":1
+	});
+    </script>
+</body>
+</html>
